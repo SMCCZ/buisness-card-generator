@@ -1,0 +1,17 @@
+.HomeContainer {
+    display: block;
+    align-items: flex-start;
+}
+
+.Heading {
+    width: 905px;
+    height: 364px;
+    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 73.4028px;
+    line-height: 110px;
+    letter-spacing: 0.04em;
+    color: #93C1FF;
+
+}
