@@ -1,17 +1,31 @@
 .HomeContainer {
-    display: block;
+    display: flex;
     align-items: flex-start;
+    flex-direction: column;
 }
 
 .Heading {
-    width: 905px;
-    height: 364px;
-    padding-bottom: 32px;
     font-style: normal;
     font-weight: 700;
     font-size: 73.4028px;
     line-height: 110px;
     letter-spacing: 0.04em;
     color: #93C1FF;
+    text-align: start;
+
+}
+
+.Home {
+    padding: 32px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ScannerImage{
+    width: 360px;
+    height: 640px;
+    border: 16px solid black;
+    display: flex;
+    justify-content: center;
 
 }
