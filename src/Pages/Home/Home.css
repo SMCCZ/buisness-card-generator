@@ -6,26 +6,41 @@
 
 .Heading {
     font-style: normal;
-    font-weight: 700;
     font-size: 73.4028px;
-    line-height: 110px;
     letter-spacing: 0.04em;
     color: #93C1FF;
+    font-weight: 700;
     text-align: start;
-
 }
 
 .Home {
-    padding: 32px;
+    padding-left: 119px;
+    padding-top: 32px;
+    min-height: 100vh;
     display: flex;
     align-items: flex-start;
+    background-color: #0A2647;
 }
 
-.ScannerImage{
+.ScannerImage {
     width: 360px;
     height: 640px;
     border: 16px solid black;
     display: flex;
     justify-content: center;
+}
 
+.Homepara {
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.Homepara :hover {
+   color: #0A2647;
 }
