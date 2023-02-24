@@ -1,0 +1,10 @@
+.Form{
+    padding-left: 16px;
+    padding-right: 32px;
+    display: block;
+    align-items:flex-start ;
+}
+
+.FormHeading{
+    color: white;
+}

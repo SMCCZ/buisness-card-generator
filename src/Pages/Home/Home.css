@@ -6,7 +6,7 @@
 
 .Heading {
     font-style: normal;
-    font-size: 73.4028px;
+    font-size:5vw;
     letter-spacing: 0.04em;
     color: #93C1FF;
     font-weight: 700;
@@ -14,7 +14,7 @@
 }
 
 .Home {
-    padding-left: 119px;
+    padding-left: 5vw;
     padding-top: 32px;
     min-height: 100vh;
     display: flex;
@@ -31,11 +31,10 @@
 }
 
 .Homepara {
-
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
+    font-size:2vw;
     line-height: 60px;
     letter-spacing: 0.05em;
     color: #FFFFFF;

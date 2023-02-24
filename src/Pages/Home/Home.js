@@ -7,24 +7,22 @@ const Home = () => {
   return (
     <div className="Home">
       <div className="HomeContainer">
-        <img src={logo}></img>
+        <img src={logo} alt="logo"></img>
         <h1 className="Heading">
           Upgrade your <br />
           marketing strategy with <br />
           interactive QR codes.
         </h1>
-        <p
+        <Link to={"/form"}
+     
           className="Homepara"
           onClick={() => {
             console.log("Started trying the QR...");
           }}
-        >
-          Try our generator now!
-        </p>
+        >Try our generator now!
+      
+        </Link>
       </div>
-      {/* <div className="ScannerImage">
-      <img width={"120px"} height={"120px"} src={scanner} alt="scanner"></img>
-      </div> */}
     </div>
   );
 };
